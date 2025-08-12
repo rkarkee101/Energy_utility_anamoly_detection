@@ -1,4 +1,4 @@
-# Energy_utility_anamoly_detection
+# Energy_utility_anomaly_detection
 
 Monitoring school energy usage is crucial for identifying inefficiencies, equipment malfunctions, or underperforming retrofits. Anomalies in energy data can appear as single outlier points (e.g. a sudden spike in usage) or as subtle trends over time (e.g. a sustained period of slightly higher consumption). In anomaly detection literature, these are often called point anomalies and collective anomalies respectively. A collective anomaly refers to a set of data points that deviate from expectations only when considered together (even if individual points seem normal).
 In the context of school utility bills (monthly energy usage), point anomalies might indicate events like equipment left running, while small trend anomalies could signal one building’s performance gradually worsening. The following sections provide two Python code examples to detect such anomalies using data-driven techniques:
